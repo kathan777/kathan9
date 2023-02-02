@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Document</title>
+    <style>
+         .a{
+            background-color: rgb(146, 223, 223);
+            height: 700px;
+            width: 33%;
+            float: left;
+        } 
+        .b{
+            background-color: cadetblue;
+            height: 700px;
+            width: 33%;
+            float: left;
+
+        }
+        .c{
+            background-color: rgb(6, 78, 81);
+            height: 700px;
+            width: 34%;
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    <div class="col-sm-4" style="background-color:lavender;">
+        <h1>Who we are</h1>
+        <h3>Background</h3>
+        <h5>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet ullam tempore nam, non voluptatum sequi laborum nemo, obcaecati cum ducimus, ab error. Eveniet accusantium doloremque consectetur cumque porro hic similique fugit iure. Placeat ducimus, dolor ex iusto alias aut, minima doloremque recusandae suscipit, praesentium exercitationem magnam aliquam libero eligendi reprehenderit.
+        </h5>
+        <h3>Values</h3>
+        <h5>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa accusamus suscipit corporis quod iure vel numquam itaque reiciendis labore nemo quaerat, non nisi at excepturi amet voluptate ea porro esse quae deserunt est? Quibusdam, placeat minima architecto similique eos tenetur accusantium, at perferendis iusto totam ut ducimus illo, fugiat voluptatum!
+        </h5>
+        <h3>Goals</h3>
+        <h5>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere quaerat similique consequuntur architecto esse ipsa quam dicta. Libero accusantium laudantium facilis aperiam maiores, quasi ullam harum debitis ea reprehenderit incidunt officia deleniti omnis sint rerum, sunt dignissimos aspernatur sit, ad ab consequuntur facere modi adipisci? Nisi dicta delectus iusto cupiditate inventore sequi quisquam iste labore.
+        </h5>
+    </div>
+    <div class="col-sm-4" style="background-color:lavenderblush;">
+        <h1 id="h1">Visit us</h1><br>
+        <h4 id="h2">123 Anywhere St..,Any city.ST 12345 <br>PWD parking available</h4><br?>
+        <h4 id="h3">123-456-7890<br>@reallygreatsite<br>hello@reallygreatsite.com</h4>
+        <img src="C:\Users\student\Desktop/33111.jpg" alt="" height="450px" width="100%" >
+    </div>
+    <div class="col-sm-4" style="background-color:lavender;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bandaid" viewBox="0 0 16 16">
+            <path d="M14.121 1.879a3 3 0 0 0-4.242 0L8.733 3.026l4.261 4.26 1.127-1.165a3 3 0 0 0 0-4.242ZM12.293 8 8.027 3.734 3.738 8.031 8 12.293 12.293 8Zm-5.006 4.994L3.03 8.737 1.879 9.88a3 3 0 0 0 4.241 4.24l.006-.006 1.16-1.121ZM2.679 7.676l6.492-6.504a4 4 0 0 1 5.66 5.653l-1.477 1.529-5.006 5.006-1.523 1.472a4 4 0 0 1-5.653-5.66l.001-.002 1.505-1.492.001-.002Z"/>
+            <path d="M5.56 7.646a.5.5 0 1 1-.706.708.5.5 0 0 1 .707-.708Zm1.415-1.414a.5.5 0 1 1-.707.707.5.5 0 0 1 .707-.707ZM8.39 4.818a.5.5 0 1 1-.708.707.5.5 0 0 1 .707-.707Zm0 5.657a.5.5 0 1 1-.708.707.5.5 0 0 1 .707-.707ZM9.803 9.06a.5.5 0 1 1-.707.708.5.5 0 0 1 .707-.707Zm1.414-1.414a.5.5 0 1 1-.706.708.5.5 0 0 1 .707-.708ZM6.975 9.06a.5.5 0 1 1-.707.708.5.5 0 0 1 .707-.707ZM8.39 7.646a.5.5 0 1 1-.708.708.5.5 0 0 1 .707-.708Zm1.413-1.414a.5.5 0 1 1-.707.707.5.5 0 0 1 .707-.707Z"/>
+          </svg>
+          <h2 id="k">perf pharmacy</h2>
+          <h3 id="k1">Affordable medicine<br> anytime</h3>
+          <img src="C:\Users\student\Desktop/medicine.jpg" alt="" height="300px" width="100%">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-qr-code-scan" viewBox="0 0 16 16" id="d">
+            <path d="M0 .5A.5.5 0 0 1 .5 0h3a.5.5 0 0 1 0 1H1v2.5a.5.5 0 0 1-1 0v-3Zm12 0a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0V1h-2.5a.5.5 0 0 1-.5-.5ZM.5 12a.5.5 0 0 1 .5.5V15h2.5a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5v-3a.5.5 0 0 1 .5-.5Zm15 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H15v-2.5a.5.5 0 0 1 .5-.5ZM4 4h1v1H4V4Z"/>
+            <path d="M7 2H2v5h5V2ZM3 3h3v3H3V3Zm2 8H4v1h1v-1Z"/>
+            <path d="M7 9H2v5h5V9Zm-4 1h3v3H3v-3Zm8-6h1v1h-1V4Z"/>
+            <path d="M9 2h5v5H9V2Zm1 1v3h3V3h-3ZM8 8v2h1v1H8v1h2v-2h1v2h1v-1h2v-1h-3V8H8Zm2 2H9V9h1v1Zm4 2h-1v1h-2v1h3v-2Zm-4 2v-1H8v1h2Z"/>
+            <path d="M12 9h2V8h-2v1Z"/>
+          </svg>
+    </div>
+</body>
+</html>
