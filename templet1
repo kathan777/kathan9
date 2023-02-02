@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Document</title>
+    <style>
+        h1{
+            color: #fff;
+            padding-left: 40px;
+            padding-top: 20px;
+            font-size: 50px;
+        }
+        p{
+            left: 70%;
+            color: #fff;
+            top: 40px;
+            bottom: 20px;
+            position: absolute;
+        }
+        
+       th{
+        padding: 10px;
+        background-color: skyblue;
+       }
+       td{
+        padding: 10px;
+        background-color: aliceblue;
+       }
+       h3{
+        padding-bottom: 10px;
+        padding-top: 10px;
+        color: darkblue;
+       }
+       h2{
+        padding-bottom: 10px;
+        padding-top: 10px;
+        color: darkblue;
+       }
+       h5{
+        font-weight: bold;
+        color: black;
+       }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="row-sm-4" style="background-color:black; height: 170px; width: 100%;margin-bottom: 5px;">
+        <h1>EVENT<br>proposal</h1>
+        <p><img src="C:\Users\student\Desktop/33111.jpg" class="img-circle" alt="Cinque Terre" height="140px" width="70%"></p>
+    </div>
+    </div>
+    <div class="container">
+    <div class="row-sm-4" style="background-color:whitesmoke; margin-bottom: 5px;">
+        <h3>event overviw</h3>
+        <table border="1">
+            <tr>
+                <th>EVENT NAME</th>
+                <td>what is the name of the event</td>
+            </tr>
+            <tr>
+                <th>
+                    DATE AND TIME
+                </th>
+                <td>when is the event start?</td>
+            </tr>
+            <tr>
+                <th>VENUE</th>
+                <td>where will  its place?</td>
+            </tr>
+            <tr>
+                <th>NUMBER OF ANTITIES</th>
+                <td>how many people are expected in event?</td>
+            </tr>
+            <tr>
+                <th>AMOUNT REQUIRE</th>
+                <td>Lorem ipsum, dolor sit amet consectetur adipisicing.</td>
+            </tr>
+            <tr>
+                <th>PREPARATION</th>
+                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime?</td>
+            </tr>
+        </table>
+    </div>
+    </div>
+    <div class="container">
+        <div class="row-sm-4" style="background-color:whitesmoke;">
+            <h2>EVENT DESCRIPTION</h2>
+            <h3>Brief Description</h3>
+            <h5>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque, sit.</h5>
+            <h3>Objectives</h3>
+            <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores blanditiis nostrum accusamus quibusdam recusandae quod?</h5>
+            <h3>Benifits</h3>
+            <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet rerum ullam itaque iure facilis pariatur sunt iusto aliquam placeat numquam.</h5>
+        </div>
+    </div>
+</body>
+</html>
