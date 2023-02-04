@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url("nature2.jpg");
+        }
+       h3{
+        color: #fff;
+        padding-left: 10px;
+       }
+       h4{
+        color: #fff;
+        padding-left: 300px;
+        padding-top: 150px;
+        font-size: 20px;
+       }
+       h1{
+        color: #fff;
+        padding-left: 300px;
+        font-size: 50px;
+       }
+       .a{
+        background-color: black;
+        color: #fff;
+        margin-left: 300px;
+        padding: 10px;
+        border: 2px solid whitesmoke;
+       }
+       .b{
+        background-color: black;
+        color: #fff;
+        margin-left: 20px;
+        padding: 10px;
+        border: 2px solid whitesmoke;
+       }
+       .c{
+        color: white;
+        height: 10px;
+        position: absolute;
+        left: 1330px;
+        top: 100px;
+       } */
+    </style>
+</head>
+<body>
+    <div>
+        <h3>Glint</h3>
+        <h4>Welcome to glint</h4>
+        <h1>Best website<br>Templetes</h1>
+        <button class="a">START A PROJECT</button>
+        <button class="b">MORE ABOUT US</button>
+    </div>
+   <div class="c">
+       <i class="fa-brands fa-facebook"></i><br><br>
+       <i class="fa-brands fa-twitter"></i><br><br>
+       <i class="fa-brands fa-instagram"></i><br><br>
+       <i class="fa-brands fa-youtube"></i><br><br>
+       <i class="fa-brands fa-apple"></i>
+   </div>
+</body>
+</html>
