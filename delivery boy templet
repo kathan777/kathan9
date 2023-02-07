@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    nav{
+        padding: 50px;
+    }
+  </style>
+</head>
+<body>
+    <div class="row">
+        <div class="col-sm-12" style="background-color:black;">
+            <nav class="navbar navbar-expand-md  navbar-dark">
+                <h2 class="text-light-">Logis</h2>
+                <a class="navbar-brand" href="#" style="padding-left: 45%;">HOME</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Pricing</a>
+                    </li> 
+                    <div class="dropdown">
+                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button"        data-bs-toggle="dropdown" aria-expanded="false">
+                          Dropdown link
+                        </a>
+                      
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </div>
+                  </ul>
+                   <li class="nav-link">
+                    <a class="nav-item" href="#">Contacts</a>
+                  </li> 
+                  <button class="btn btn-primary">Get a Choose</button>
+                </div>  
+              </nav>
+        </div>
+    </div>
+    <div class="row" >
+        <div class="col-sm-6" style="background-color:darkblue; height: 470px;">
+           <h1 style="color: #fff;padding-left: 20px;"> Your Lightning Fast <br>Delivery Partner </h1><br>
+           <h6 style="color: aliceblue; padding-left: 20px;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea laudantium aliquid quam voluptates voluptatibus! Necessitatibus ipsa, cupiditate iusto odit nemo omnis natus commodi ad, cum tenetur dolorem? Facilis id fugit accusamus itaque hic culpa aperiam aut! Iusto ex accusantium numquam, est sed omnis provident laborum quod eius quisquam amet aliquid?</h6>
+           <nav class="navbar navbar-expand-sm">
+            <form class="form-inline" action="/action_page.php">
+              <input class="form-control mr-sm-2" type="text" placeholder="Search">
+              <button class="btn btn-success" type="submit">Search</button>
+            </form>
+          </nav>
+          <br>
+          <h2 style="color: #fff; padding:20px; text-decoration: underline;">232 <b style="padding-left: 40px;">521</b> <b style="padding-left: 40px;">1453</b><b style="padding-left: 40px;">32</b></h2>
+          <h6 style="color: #fff;padding-left: 20px;">Clients <b style="padding-left: 40px;">projects</b> <b style="padding-left: 40px;">Supports</b> <b style="padding-left: 40px;">Workers</b></h6>
+        </div>
+        <div class="col-sm-6" style="background-color:aliceblue;">
+            <img src="https://i.pinimg.com/736x/58/9c/e0/589ce019ef90b40751bfa6569d9cf373.jpg" alt="" height="450px" width="100%">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4" style="background-color:white; height: 200px;">
+            <i class="fa-solid fa-cart-shopping" style="font-size: 40px; color: blue; padding-top: 20px;
+            padding-left: 20px;">&nbsp;&nbsp;<b style="color: black; font-size: 25px;">Lorem, ipsum.</b></i>
+            <h5 style="padding-left: 70px; text-align: justify;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis omnis minus suscipit illum reprehenderit recusandae laborum, sapiente assumenda placeat itaque?</h5>
+            <b style="padding-left: 70px;">Learn More-></b>
+        </div>
+        <div class="col-sm-4" style="background-color:white">
+            <i class="fa-solid fa-truck" style="font-size: 40px; color: blue; padding-top: 20px;
+            padding-left: 20px;">&nbsp;&nbsp;<b style="color: black; font-size: 25px;">Lorem, ipsum.</b></i>
+             <h5 style="padding-left: 70px; text-align: justify;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis omnis minus suscipit illum reprehenderit recusandae laborum, sapiente assumenda placeat itaque?</h5>
+             <b style="padding-left: 70px;">Learn More-></b>
+        </div>
+        <div class="col-sm-4" style="background-color:white">
+            <i class="fa-solid fa-truck-ramp-box" style="font-size: 40px; color: blue; padding-top: 20px;
+            padding-left: 20px;">&nbsp;&nbsp;<b style="color: black; font-size: 25px;">Lorem, ipsum.</b></i> <h5 style="padding-left: 70px; text-align: justify;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis omnis minus suscipit illum reprehenderit recusandae laborum, sapiente assumenda placeat itaque?</h5>
+             <b style="padding-left: 70px;">Learn More-></b>
+        </div>
+      </div>
+</body>
+</html>
